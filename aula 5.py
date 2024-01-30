@@ -72,3 +72,19 @@ else:
     print('acabou a lista de convidados')
 
 print('Esses sao os nomes de todas as pessoas da lista: ', lista_convidados)
+
+#resolução do guilherme
+print('programinha de controle de festinhas 1.0')
+print('################################')
+numero_de_convidados = int('coloque o numero de convidados')
+lista_convidados2 = []
+
+i = 1
+while i < int(numero_de_convidados):
+    nome_do_convidado=input('coloque o nome do convidado #' + str(i) + ': ')
+    lista_convidados2.append(nome_do_convidado)
+    i +=1
+
+print('serao,',numero_de_convidados, 'convidados')
+for convidado in lista_convidados2:
+    print(convidado)
