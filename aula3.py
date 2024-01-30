@@ -15,7 +15,12 @@ if not idade == 50:
 else:
     print('voce tem 50 anos')'''
 
-print('exercicio')
+''' Exercicio
+Faça um programa que pergunte a idade, a altura e o pesp de uma pessoa, calcule
+e decida  se ela esta apta a entrar no exercito.
+Para entrar no exercito é preciso ter mais de 18 anos. 
+Pesar mais ou igual a 60 kilos e medir mais de 1,70m
+'''
 peso = float(input('digite seu peso: '))
 idade = int(input('digite sua idade: '))
 altura = float(input('digite sua altura:  '))
