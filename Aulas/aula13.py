@@ -6,7 +6,7 @@ import requests
 
 def requisicao(titulo):
     try:
-        req = requests.get('http://www.omdbapi.com/?apikey=846cc761&t=' + titulo + '&type=movie')
+        req = requests.get('http://www.omdbapi.com/?apikey=&t=' + titulo + '&type=movie')
 
         dicionario = json.loads(req.text)
         return dicionario

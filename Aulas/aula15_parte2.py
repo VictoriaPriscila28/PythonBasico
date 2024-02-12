@@ -1,6 +1,6 @@
 import requests
 import json
-apikey = '0dc7be46024c0edd446e536760d8cfeb'
+apikey = ''
 
 cidade= input('Digite o nome da cidade: ')
 requisicao = requests.get(f'http://api.openweathermap.org/geo/1.0/direct?q={cidade}&appid={apikey}')

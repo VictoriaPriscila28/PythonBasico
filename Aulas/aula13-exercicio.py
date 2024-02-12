@@ -10,7 +10,7 @@ def lista_filmes(titulo):
     try:
         for i in range(1, 11):
             print('Pesquisando na página:', i)
-            req = requests.get(f'http://www.omdbapi.com/?apikey=846cc761&type=movie&s={titulo}&page={i}') #alteração
+            req = requests.get(f'http://www.omdbapi.com/?apikey=&type=movie&s={titulo}&page={i}') #alteração
             resposta = json.loads(req.text)
             if resposta['Response'] == 'True':
                 for filme in resposta['Search']:
