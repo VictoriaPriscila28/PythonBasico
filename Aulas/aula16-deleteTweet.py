@@ -1,8 +1,8 @@
 #Publicando e pesquisando no Twitter
 from requests_oauthlib import OAuth1Session
 
-consumer_key = 'GCZiWeku15HTPMoRsmTWOcg5r'
-consumer_secret = 'vqM1Wg1d85SbLGi91RBSDjsHVDuuHgwX3a2I0MwgDz5PfTMRUN'
+consumer_key = ''
+consumer_secret = ''
 
 # Be sure to replace tweet-id-to-delete with the id of the Tweet you wish to delete. The authenticated user must own the list in order to delete
 

@@ -2,8 +2,8 @@
 from requests_oauthlib import OAuth1Session
 
 # Get consumer key and consumer secret from environment variables
-consumer_key = 'GCZiWeku15HTPMoRsmTWOcg5r'
-consumer_secret = 'vqM1Wg1d85SbLGi91RBSDjsHVDuuHgwX3a2I0MwgDz5PfTMRUN'
+consumer_key = ''
+consumer_secret = ''
 
 
 if not consumer_key or not consumer_secret:
@@ -77,8 +77,8 @@ else:
     print("Error posting tweet. Response:", response.text)
 
 ''' response:
-Got OAuth token: qvyCMAAAAAABsVvbAAABjZ3fNcw
-Please go here and authorize: https://api.twitter.com/oauth/authorize?oauth_token=qvyCMAAAAAABsVvbAAABjZ3fNcw
-Paste the PIN here: 2405845
-Got access token: 1756852866109562880-KLVSjWvEZKIbb0A14SScGu0UUE61ml
+Got OAuth token: 
+Please go here and authorize: https://api.twitter.com/oauth/authorize?oauth_token=
+Paste the PIN here: 
+Got access token: 
 Tweet posted successfully!'''
